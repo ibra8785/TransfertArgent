@@ -1,0 +1,37 @@
+<div class="infoTransaction">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col col-md-4 col-lg-4 col-xl-4">
+                        <div class="detailTransac">
+                            <div class="iconTransac">
+                                <img src="img/note.png" alt="icon rapide" class="img-fluid">
+                            </div>
+                            <div class="iconDesc text-center">
+                                <h4>Rapide</h4>
+                                <p>GHOSTMoney propose de nombreuses options d'envoi et de réception permettants aux transferts d'arriver en quelques minutes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col col-md-4 col-lg-4 col-xl-4">
+                        <div class="detailTransac">
+                            <div class="iconTransac">
+                                <img src="img/note.png" alt="icon rapide" class="img-fluid">
+                            </div>
+                            <div class="iconDesc text-center">
+                                <h4>Fiable</h4>
+                                <p>Vos informations personnelles et vos transactions sont traitées en toute confiance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col col-md-4 col-lg-4 col-xl-4">
+                        <div class="detailTransac">
+                            <div class="iconTransac">
+                                <img src="img/note.png" alt="icon rapide" class="img-fluid">
+                            </div>
+                            <div class="iconDesc text-center">
+                                <h4>Moins coûteux</h4>
+                                <p>GHOSTMoney offre des services fiables à des prix abordables.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>

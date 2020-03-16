@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+:root
+{
+   --color-grey: #b1b1b1;
+   --color-primary: #0099ff;
+   --color-orange: #e42413;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/*__________ GENERAL __________*/
+
+html
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+button:focus, input:focus
+{
+    outline: none;
+}
+
+a, a:hover
+{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Righteous', cursive, 'Trebuchet MS', sans-serif;
+}
+
+/*__________ NAV BAR __________*/
+
+.topNav
+{
+    width: 100%;
+    min-height: 6rem;
+    background-color: white;
+}
+
+.navLogo img
+{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.togNav
+{
+    background-color: white;
+}
+
+.titleNav h1
+{
+    color: black;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.topNav input
+{
+    width: 25rem;
+    padding: 1rem;
+    border: 1px solid var(--color-primary);
+    font-size: 1.4rem;
+}
+
+.titleNav span
+{
+    color: var(--color-primary);
+}
+
+.navLinks li
+{
+    margin: auto 0;
+}
+
+.navLinks a
+{
+    color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.navLinks li:hover a
+{
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.topNav button
+{
+    padding: 1rem 1.5rem;
+    margin-left: 2rem;
+    border: none;
+    border-radius: 15px;
+}
+
+.topNav button a
+{
+    color: white;
+}
+
+.btn-inscription
+{
+    background-color: var(--color-primary);
+}
+
+.btn-connexion
+{
+    background-color: var(--color-orange);
+}
+
+/*__________ HEADER __________*/
+
+.header
+{
+    width: 100%;
+    min-height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url(../img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 2rem;
+}
+
+.header .headerText
+{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+}
+
+.header .headerText h1
+{
+    color: white;
+    font-size: 3.7rem;
+}
+
+.header .headerText span
+{
+    color: var(--color-primary);
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*__________ TRANSACTION __________*/
+
+.transaction
+{
+    min-height: 20rem;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.titleTransaction h1
+{
+    font-size: 3.7rem;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.cardTransaction
+{
+    margin: 3rem 0;
+    padding: 2rem;
+    box-shadow: 0 2px 20px 0px rgba(0,0,0,0.2);
+}
+
+.cardTransaction:hover
+{
+    transform: scale(1.05);
+    transition: all .5s ease;
+}
+
+.cardTitle
+{
+    margin-bottom: 2rem;
+}
+
+.cardTitle h2
+{
+    font-size: 2.4rem;
+}
+
+.detailDesc
+{
+    margin-bottom: 1.5rem;
+}
+
+.detailDesc h4
+{
+    font-size: 1.8rem;
+}
+
+.detailDesc span
+{
+    font-size: 1.4rem;
+    color: var(--color-grey);
+}
+
+.detailTransac
+{
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.iconTransac
+{
+    padding: 2rem;
+    height: 10rem;
+    width: 10rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.iconTransac img
+{
+    max-height: 9rem;
+    max-width: 9rem;
+    object-fit: cover;
+}
+
+.iconDesc
+{
+    margin-top: 2rem;
+}
+
+.iconDesc h4
+{
+    font-size: 2rem;
+}
+
+.iconDesc p
+{
+    font-size: 1.4rem;
+    color: var(--color-grey);
+}
+
+/*__________ PROMO __________*/
+
+.promo
+{
+    min-height: 10rem;
+    width: 100%;
+    padding: 2rem 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../img/3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contentPromo h2
+{
+    font-size: 3rem;
+    color: white;
+}
+
+.contentPromo button
+{
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    border: none;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: white;
+    background-color: var(--color-orange);
+}
+
+/*__________ APP __________*/
+
+.app
+{
+    min-height: 30rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+.descApp h2
+{
+    font-size: 3.4rem;
+    margin-bottom: 2rem;
+}
+
+.descApp h5
+{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.descApp p
+{
+    font-size: 1.4rem;
+    color: var(--color-grey);
+}
+
+.iconApp
+{
+    margin-top: 2rem;
+}
+
+.iconApp img
+{
+    max-width: 10rem;
+    margin-right: 1rem;
+}
+
+/*__________ FOOTER __________*/
+
+.footer
+{
+    min-height: 35rem;
+    width: 100%;
+    background-color: #23374d;
+    padding: 3rem 0;
+}
+
+.footerContent
+{
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #222120;
+}
+
+.titleFooter img
+{
+    height: 3rem;
+    width: 3rem;
+}
+
+.titleFooter h1
+{
+    font-size: 3rem;
+    color: white;
+    margin-left: 1rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.titleFooter span
+{
+    font-size: 3rem;
+    color: var(--color-primary);
+    font-weight: bolder;
+}
+
+.illustrationFooter p
+{
+    color: #ccc;
+    font-size: 1.4rem;
+}
+
+.footerDetail h1
+{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.footerDetail a
+{
+    display: block;
+    color: #ccc;
+    font-size: 1.4rem;
+}
+
+.footerDetail a:hover
+{
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.footerDetail__icon img
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 2rem;
+}
+
+.footerDetail__icon p
+{
+    color: #ccc;
+    font-size: 1.4rem;
+}
+
+.socialNetwork
+{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.socialNetwork p
+{
+    color: #ccc;
+    font-size: 1.4rem;
+    margin-right: 2rem;
+}
+
+.socialNetwork img
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 2rem;
+}
+
+.copyright
+{
+    margin-top: 1rem;
+}
+
+.copyright p
+{
+    color: #ccc;
+    font-size: 1.4rem;
+}
+
+/****************************/
+
+/*__________FORMULAIRE  INSCRIPTION __________*/
+
+.section
+{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+}
+
+.fomrulaire2
+{
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 2px 20px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.imgForm2
+{
+    margin-bottom: 2rem;
+}
+
+.imgForm2 img
+{
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.form2
+{
+    margin: 1rem auto;
+}
+
+.input2
+{
+    margin-bottom: 1rem;
+}
+
+label
+{
+    font-size: 1.4rem;
+}
+
+.form2 input
+{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    color: white;
+    background-color: #ccc;
+    border: none;
+}
+
+.form2 button
+{
+    margin: 1.5rem 2rem 0;
+    padding: .7rem 2rem;
+    font-size: 1.4rem;
+    color: white;
+    border: none;
+}
+
+.btnno
+{
+    background-color: #f44660;
+}
+
+.btnyes
+{
+    background-color: var(--color-primary);
+}
